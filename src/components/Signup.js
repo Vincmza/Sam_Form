@@ -2,14 +2,12 @@ import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 
 const Signup = () => {
-    const {
-        register,
-        formState: { errors },
-        handleSubmit,
-    } = useForm();
+    const {register, formState: { errors },handleSubmit  } = useForm();
     const [userInfo, setUserinfo] = useState("");
+    
     const onSubmit = (data) => {
         setUserinfo(data);
+      
     };
 
     return (
