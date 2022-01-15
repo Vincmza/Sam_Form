@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Success = () => {
+const Bravo = () => {
     return (
         <div>
             Bravo
@@ -8,4 +8,4 @@ const Success = () => {
     )
 }
 
-export default Success
+export default Bravo
